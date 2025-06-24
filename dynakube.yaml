@@ -30,7 +30,7 @@ spec:
 
   # Optional: Disable certificate check for the connection between Dynatrace Operator and the Dynatrace Cluster.
   #
-  skipCertCheck: false
+  skipCertCheck: true
 
   # Optional: Set custom proxy settings either directly or from a secret with the field 'proxy'
   #
