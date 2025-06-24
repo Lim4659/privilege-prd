@@ -9,7 +9,7 @@ metadata:
   namespace: dynatrace
 type: Opaque
 ---
-apiVersion: dynatrace.com/v1
+apiVersion: dynatrace.com/v1beta3
 kind: DynaKube
 metadata:
   name: privilege-prd
@@ -19,7 +19,7 @@ spec:
   # For SaaS, set `ENVIRONMENTID` to your environment ID.
   # For Managed, change the apiUrl address.
   # For instructions on how to determine the environment ID and how to configure the apiUrl address, see https://www.dynatrace.com/support/help/reference/dynatrace-concepts/environment-id/.
-  apiUrl: https://dynatrace.matador.ais.co.th/e/631b553f-73c8-49ed-9e11-85f7ad7a8acc/api
+  apiUrl: https://gxk996.dynatrace-managed.com/e/631b553f-73c8-49ed-9e11-85f7ad7a8acc/api
 
   # Optional: Name of the secret holding the credentials required to connect to the Dynatrace tenant
   # If unset, the name of this custom resource is used
