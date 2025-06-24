@@ -33,7 +33,7 @@ spec:
 
   # Optional: Disable certificate validation checks for installer download and API communication
   #
-  skipCertCheck: true
+  skipCertCheck: false
 
   # Optional: Set custom proxy settings either directly or from a secret with the field 'proxy'
   #
